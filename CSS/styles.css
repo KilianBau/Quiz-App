@@ -18,6 +18,7 @@ h1 {
   margin-top: 0%;
   display: flex;
   justify-content: center;
+  text-decoration: underline;
 }
 
 .first {
@@ -83,4 +84,14 @@ img {
 
 .active {
   background-color: #04aa6d;
+}
+
+.answer {
+  border: 5px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px 30px 50px 30px;
+  background-color: white;
+  width: 50%;
 }
