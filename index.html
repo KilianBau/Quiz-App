@@ -4,18 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
-    <link rel="stylesheet" type="text/css" href="../CSS /styles.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
   </head>
   <body>
     <header>
-      <h1>Quiz App</h1>
-      <nav>
-        <ul>
-          <li><a>Home</a></li>
-          <li><a>Bookmarks</a></li>
-          <li><a>Profile</a></li>
+      <h1 aria-labelledby="title">Quiz App</h1>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a aria-label="home">Home</a></li>
+          <li><a aria-label="bookmarks">Bookmarks</a></li>
+          <li><a aria-label="profile">Profile</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="first">
+        <p aria-labelledby="question">
+          What property flips the axes in flexbox?
+        </p>
+        <button aria-label="Show answer">Show Answer</button>
+      </section>
+      <section class="first">
+        <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
+        <button aria-label="Show answer">Show Answer</button>
+      </section>
+      <section class="first">
+        <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
+        <button aria-label="Show answer">Show Answer</button>
+      </section>
+    </main>
   </body>
 </html>
