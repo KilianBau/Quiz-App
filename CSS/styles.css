@@ -7,22 +7,24 @@
 body {
   background-attachment: fixed;
   background-position: center;
-  background-color: beige;
+  background: linear-gradient(0.25turn, #3f9ac2, #52a1a5, #b1cee4);
 }
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 20px;
   border: 2px solid rgb(0, 0, 0);
-  background-color: rgb(129, 85, 171);
+  background-color: rgb(6, 74, 113);
   margin-top: 0%;
   display: flex;
   justify-content: center;
   text-decoration: underline;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px 4px;
 }
 
 .first {
-  background-color: aqua;
+  background: linear-gradient(0.25turn, #7ec2df, #53dce3, #27b3d6);
   margin: 60px;
   padding: 90px 30px 150px 30px;
   border: 5px solid black;
@@ -31,12 +33,16 @@ h1 {
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
+  box-shadow: 4px 4px 4px 4px black;
+  border-radius: 8px;
 }
-
+.first p {
+  text-decoration: underline dotted;
+}
 button {
   display: flex;
-  color: rgb(23, 20, 20);
-  background-color: rgb(194, 64, 64);
+  color: rgb(255, 252, 252);
+  background: linear-gradient(0.25turn, #041cd3, #233ec8, #2e40ba);
   padding: 40px 60px 40px 60px;
   font-weight: 700;
   font-size: large;
@@ -45,6 +51,8 @@ button {
   margin: 0 auto;
   margin-top: 10%;
   cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 4px 4px 6px 6px black;
 }
 
 img {
