@@ -39,7 +39,7 @@ h1 {
 .first p {
   text-decoration: underline dotted;
 }
-button {
+.button-answer {
   display: flex;
   color: rgb(255, 252, 252);
   background: linear-gradient(0.25turn, #041cd3, #233ec8, #2e40ba);
@@ -55,7 +55,7 @@ button {
   box-shadow: 4px 4px 6px 6px black;
 }
 
-img {
+.bookmark-icon {
   position: absolute;
   top: 5%;
   right: 5%;
@@ -102,4 +102,75 @@ img {
   padding: 50px 30px 50px 30px;
   background-color: white;
   width: 50%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  gap: 2rem;
+}
+
+.profile-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 900;
+  font-style: italic;
+  padding-top: 1rem;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.aboutme-text {
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px 4px;
+  padding: 2% 5% 10% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutme-header {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.profile-icon {
+  width: 70px;
+  height: auto;
+  border-radius: 38px;
+  border: 2px solid black;
+}
+
+.settings {
+  text-align: center;
+  margin-top: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.darkmode {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.darkmode__text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.darkmode__button {
+  height: 12px;
+  width: 12px;
+  border: 1px solid black;
+  border-radius: 18px;
+  cursor: pointer;
+  background-color: black;
 }
