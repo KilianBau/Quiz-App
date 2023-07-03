@@ -1,0 +1,49 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  gap: 2rem;
+}
+
+.profile-name {
+  font-family: var(--font-family);
+  font-size: 900;
+  font-style: italic;
+  padding-top: 1rem;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.aboutme-text {
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px 4px;
+  padding: 2% 5% 10% 5%;
+  font-family: var(--font-family);
+}
+
+.aboutme-header {
+  font-family: var(--font-family);
+  padding-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.profile-icon {
+  width: 70px;
+  height: auto;
+  border-radius: 38px;
+  border: 2px solid black;
+}
+
+.settings {
+  text-align: center;
+  margin-top: 8%;
+  font-family: var(--font-family);
+  text-decoration: underline;
+}

@@ -1,0 +1,34 @@
+.card {
+  background: var(--background);
+  margin: 60px;
+  padding: 90px 30px 150px 30px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: var(--font-family);
+  position: relative;
+  box-shadow: 4px 4px 4px 4px black;
+  border-radius: 8px;
+}
+
+.card p {
+  text-decoration: underline dotted;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.answer {
+  border: 5px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px 30px 50px 30px;
+  background-color: white;
+  width: 50%;
+}
