@@ -1,0 +1,61 @@
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --background: linear-gradient(0.25turn, #3f9ac2, #52a1a5, #b1cee4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background: var(--background);
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(6, 74, 113);
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px 4px;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  position: fixed;
+  bottom: 0%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04aa6d;
+}
