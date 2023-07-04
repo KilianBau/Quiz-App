@@ -10,6 +10,7 @@
   font-size: 900;
   font-style: italic;
   padding-top: 1rem;
+  color: var(--color);
 }
 
 .aboutme {
@@ -32,6 +33,7 @@
   font-family: var(--font-family);
   padding-bottom: 1rem;
   text-decoration: underline;
+  color: var(--color);
 }
 
 .profile-icon {
@@ -46,4 +48,9 @@
   margin-top: 8%;
   font-family: var(--font-family);
   text-decoration: underline;
+  color: var(--color);
+}
+
+.spacer {
+  margin-bottom: 10%;
 }

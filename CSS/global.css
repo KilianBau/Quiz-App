@@ -1,6 +1,8 @@
 :root {
   --font-family: Arial, Helvetica, sans-serif;
   --background: linear-gradient(0.25turn, #3f9ac2, #52a1a5, #b1cee4);
+  --color: rgb(0, 0, 0);
+  --border: 5px solid black;
 }
 
 * {
@@ -17,6 +19,7 @@ body {
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--color);
   padding: 20px;
   border: 2px solid rgb(0, 0, 0);
   background-color: rgb(6, 74, 113);

@@ -6,9 +6,9 @@
     <title>Quiz-App</title>
     <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
   </head>
-  <body>
+  <body data-js="body">
     <header>
-      <h1 aria-labelledby="title">Quiz App</h1>
+      <h1 aria-labelledby="title" data-js="h1" >Quiz App</h1>
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -27,7 +27,7 @@
         <img
           class="profile-icon"
           src="./IMG/iconmonstr-user-male-thin-32.png"
-          aria-labelledby="Profile icon" />
+          aria-labelledby="Profile icon" data-js="profile-icon" />
         <h2 class="profile-name">Profile Name</h2>
       </section>
       <section class="aboutme">
@@ -40,8 +40,10 @@
       </section>
       <section class="darkmode">
         <p class="darkmode__text">Darkmode:</p>
-        <button class="darkmode__button" aria-label="Darkmode-button"></button>
+        <button class="darkmode__button" aria-label="Darkmode-button" data-js="darkmode-button" ></button>
       </section>
+      <div class="spacer">
+      </div>
     </main>
   </body>
 </html>
