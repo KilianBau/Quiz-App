@@ -12,7 +12,7 @@
   border-radius: 8px;
 }
 
-.card p {
+.question {
   text-decoration: underline dotted;
   color: var(--color);
 }
@@ -24,6 +24,14 @@
   cursor: pointer;
 }
 
+.bookmark-icon__clicked {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  background: url(../../IMG/iconmonstr-bookmark-43-32.png);
+}
+
 .answer {
   border: 5px solid black;
   text-align: center;
@@ -32,4 +40,11 @@
   padding: 50px 30px 50px 30px;
   background-color: white;
   width: 50%;
+}
+
+.show-answer {
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  border: 5px solid black;
 }

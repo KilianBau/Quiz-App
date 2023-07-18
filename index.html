@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+    <script src="./JS/index.js" defer></script>
   </head>
   <body data-js="body">
     <header>
@@ -19,6 +20,7 @@
         <a aria-label="bookmark" href="./bookmark.html"
           ><i class="fa fa-bookmark"></i
         ></a>
+        <a aria-label="form" href="./form.html"><i class="fa fa-book"></i></a>
         <a aria-label="profile" href="./profile.html"
           ><i class="fa fa-fire"></i
         ></a>
@@ -26,36 +28,110 @@
     </header>
     <main>
       <section class="card" data-js="card">
-        <img
-          class="bookmark-icon"
-          src="./IMG/iconmonstr-bookmark-thin-32.png"
-          alt="bookmark" />
-        <p aria-labelledby="question">
+        <button
+          class="toggle-bookmark"
+          aria-label="set bookmark"
+          data-js="toggle-bookmark">
+          <img
+            class="bookmark-icon"
+            src="./IMG/iconmonstr-bookmark-thin-32.png"
+            alt="bookmark"
+            data-js="bookmark-default" />
+        </button>
+        <p class="question" aria-labelledby="question" data-js="question1">
           What property flips the axes in flexbox?
         </p>
-        <button class="button-answer" aria-label="Show answer">
-          Show Answer
-        </button>
+        <section class="question__button--justify">
+          <button
+            class="button-question"
+            aria-label="Show answer"
+            data-js="show-answer0">
+            Show Answer
+          </button>
+          <button
+            class="button-question"
+            aria-label="Hide answer"
+            data-js="hide-answer0">
+            Hide Answer
+          </button>
+        </section>
+        <ul class="yourQuestion_ul">
+          <li class="yourQuestin_tag">Lorem</li>
+          <li class="yourQuestin_tag">Ipsum</li>
+          <li class="yourQuestin_tag">Dolor</li>
+        </ul>
+        <div data-js="answer0"></div>
       </section>
       <section class="card" data-js="card">
-        <img
-          class="bookmark-icon"
-          src="./IMG/iconmonstr-bookmark-thin-32.png"
-          alt="bookmark" />
-        <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
-        <button class="button-answer" aria-label="Show answer">
-          Show Answer
+        <button
+          class="toggle-bookmark"
+          aria-label="set bookmark"
+          data-js="toggle-bookmark1">
+          <img
+            class="bookmark-icon"
+            src="./IMG/iconmonstr-bookmark-thin-32.png"
+            alt="bookmark"
+            data-js="bookmark-default1" />
         </button>
+        <p class="question" aria-labelledby="question">
+          Lorem Ipsum dolor sit?
+        </p>
+        <section class="question__button--justify">
+          <button
+            class="button-question"
+            aria-label="Show answer"
+            data-js="answer-button1">
+            Show Answer
+          </button>
+          <button
+            class="button-question"
+            aria-label="Hide answer"
+            data-js="hide-answer1">
+            Hide Answer
+          </button>
+        </section>
+        <ul class="yourQuestion_ul">
+          <li class="yourQuestin_tag">Lorem</li>
+          <li class="yourQuestin_tag">Ipsum</li>
+          <li class="yourQuestin_tag">Dolor</li>
+        </ul>
+        <div data-js="answer1"></div>
       </section>
+
       <section class="card" data-js="card">
-        <img
-          class="bookmark-icon"
-          src="./IMG/iconmonstr-bookmark-thin-32.png"
-          alt="bookmark" />
-        <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
-        <button class="button-answer" aria-label="Show answer">
-          Show Answer
+        <button
+          class="toggle-bookmark"
+          aria-label="set bookmark"
+          data-js="toggle-bookmark2">
+          <img
+            class="bookmark-icon"
+            src="./IMG/iconmonstr-bookmark-thin-32.png"
+            alt="bookmark"
+            data-js="bookmark-default2" />
         </button>
+        <p class="question" aria-labelledby="question">
+          Lorem Ipsum dolor sit?
+        </p>
+        <section class="question__button--justify">
+          <button
+            class="button-question"
+            aria-label="Show answer"
+            data-js="answer-button2">
+            Show Answer
+          </button>
+          <button
+            class="button-question"
+            aria-label="Hide answer"
+            data-js="hide-answer2">
+            Hide Answer
+          </button>
+        </section>
+        <ul class="yourQuestion_ul">
+          <li class="yourQuestin_tag">Lorem</li>
+          <li class="yourQuestin_tag">Ipsum</li>
+          <li class="yourQuestin_tag">Dolor</li>
+        </ul>
+        <div data-js="answer2"></div>
       </section>
     </main>
   </body>
