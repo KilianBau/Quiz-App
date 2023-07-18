@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+    <script src="./JS/index.js" defer></script>
   </head>
   <body data-js="body">
     <header>
@@ -17,6 +18,7 @@
         <a aria-label="bookmark" class="active" href="./bookmark.html"
           ><i class="fa fa-bookmark"></i
         ></a>
+        <a aria-label="form" href="./form.html"><i class="fa fa-book"></i></a>
         <a aria-label="profile" href="./profile.html"
           ><i class="fa fa-fire"></i
         ></a>
@@ -31,9 +33,36 @@
         <p aria-labelledby="question">
           What property flips the axes in flexbox?
         </p>
-        <button class="button-answer" aria-label="Show answer">
-          Show Answer
-        </button>
+        <section class="question__button--justify">
+          <button class="button-question" aria-label="Show answer">
+            Show Answer
+          </button>
+          <button
+            class="button-question"
+            aria-label="Hide answer"
+            data-js="hide-answer">
+            Hide Answer
+          </button>
+        </section>
+      </section>
+      <section class="card">
+        <img
+          class="bookmark-icon"
+          src="./IMG/iconmonstr-bookmark-43-32.png"
+          alt="bookmark"
+          data-js="bookmark-clicked" />
+        <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
+        <section class="question__button--justify">
+          <button class="button-question" aria-label="Show answer">
+            Show Answer
+          </button>
+          <button
+            class="button-question"
+            aria-label="Hide answer"
+            data-js="hide-answer">
+            Hide Answer
+          </button>
+        </section>
       </section>
       <section class="card">
         <img
@@ -41,19 +70,17 @@
           src="./IMG/iconmonstr-bookmark-43-32.png"
           alt="bookmark" />
         <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
-        <button class="button-answer" aria-label="Show answer">
-          Show Answer
-        </button>
-      </section>
-      <section class="card">
-        <img
-          class="bookmark-icon"
-          src="./IMG/iconmonstr-bookmark-43-32.png"
-          alt="bookmark" />
-        <p aria-labelledby="question">Lorem Impsum dolor sit?</p>
-        <button class="button-answer" aria-label="Show answer">
-          Show Answer
-        </button>
+        <section class="question__button--justify">
+          <button class="button-question" aria-label="Show answer">
+            Show Answer
+          </button>
+          <button
+            class="button-question"
+            aria-label="Hide answer"
+            data-js="hide-answer">
+            Hide Answer
+          </button>
+        </section>
       </section>
     </main>
   </body>

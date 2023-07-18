@@ -1,15 +1,32 @@
-.button-answer {
+.button-question {
   display: flex;
+  flex-wrap: wrap;
   color: rgb(255, 252, 252);
   background: var(--background);
-  padding: 40px 60px 40px 60px;
+  padding: 5% 10% 5% 10%;
   font-weight: 700;
   font-size: large;
   text-transform: uppercase;
   font-family: var(--font-family);
-  margin: 0 auto;
+  margin: 5% 5% 5% 5%;
   margin-top: 10%;
   cursor: pointer;
   border-radius: 6px;
   box-shadow: 4px 4px 6px 6px black;
+}
+
+.toggle-bookmark {
+  position: absolute;
+  top: 5%;
+  right: 5.5%;
+  cursor: pointer;
+  padding: 14px 8px 14px 8px;
+  background: none;
+  border: none;
+}
+
+.question__button--justify {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

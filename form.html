@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+    <script src="./JS/forms.js" defer></script>
+  </head>
+</html>
+<body>
+  <header>
+    <h1 aria-labelledby="title" data-js="h1">Quiz App</h1>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <nav class="icon-bar">
+      <a aria-label="home" href="index.html"><i class="fa fa-home"></i></a>
+      <a aria-label="bookmark" href="./bookmark.html"
+        ><i class="fa fa-bookmark"></i
+      ></a>
+      <a aria-label="form" href="#" class="active"
+        ><i class="fa fa-book"></i
+      ></a>
+      <a aria-label="profile" href="./profile.html"
+        ><i class="fa fa-fire"></i
+      ></a>
+    </nav>
+  </header>
+  <main>
+    <section class="yourquestion__section">
+      <form class="yourquestion__form" data-js="form">
+        <legend class="yourquestion__legend">Your Question:</legend>
+        <label for="your-Question"></label>
+        <textarea
+          class="yourquestion__textinput"
+          name="your-Question"
+          id="your-Question"
+          type="text"
+          data-js="your-Question"
+          maxlength="150"></textarea>
+        <span data-js="char_count0">0/150</span>
+        <legend class="yourquestion__legend">Your Answer:</legend>
+        <label for="your-Answer"></label>
+        <textarea
+          class="yourquestion__textinput"
+          name="your-Answer"
+          id="your-Answer"
+          type="text"
+          data-js="your-Answer"
+          maxlength="150"></textarea>
+        <span data-js="char_count1">0/150</span>
+        <legend class="yourquestion__legend">Your Tag:</legend>
+        <label for="your-Tag"></label>
+        <textarea
+          id="your-Tag"
+          class="yourquestion__textinput"
+          data-js="your-Tag"
+          name="your-Tag"
+          maxlength="150"></textarea>
+        <span data-js="char_count2">0/150</span>
+        <button
+          type="submit"
+          aria-label="create new Question"
+          class="yourquestion__button"
+          data-js="submit-button">
+          Create
+        </button>
+      </form>
+      <div data-js="your-spacer"></div>
+    </section>
+    <div class="spacer"></div>
+  </main>
+</body>
